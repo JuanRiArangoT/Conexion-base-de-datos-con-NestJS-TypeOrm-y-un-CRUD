@@ -3,8 +3,8 @@
     "host": "localhost",
     "port": 1433,
     "username": "juanri",
-    "password": "1234",
-    "database": "TypeOrm",
+    "password": "",
+    "database": "",
     "requestTimeout": 30000,
     "logging": true,
     "entities": [
