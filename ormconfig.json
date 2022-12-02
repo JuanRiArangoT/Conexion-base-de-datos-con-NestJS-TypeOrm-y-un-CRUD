@@ -1,0 +1,27 @@
+{
+    "type": "mssql",
+    "host": "localhost",
+    "port": 1433,
+    "username": "juanri",
+    "password": "1234",
+    "database": "TypeOrm",
+    "requestTimeout": 30000,
+    "logging": true,
+    "entities": [
+        "dist/entities/**/*.{ts,js}"
+    ],
+    "migrations": [
+        "dist/entities/**/*.{ts,js}"
+    ],
+    "cli": {
+        "entitiesDir": "src/entities",
+        "migrationsDir": "src/migrations"
+    },
+    "synchronize": false,
+    "options": {
+        "encrypt": true
+    },
+    "extra": {
+        "trustServerCertificate": true
+    }
+}
